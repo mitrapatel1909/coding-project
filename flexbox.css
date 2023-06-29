@@ -1,0 +1,17 @@
+p, h1, nav {
+    font-family: arial;
+    letter-spacing: 0.2px;
+}
+li{
+    display: inline;
+    padding: 40px;
+}
+a{
+    color: white;
+}
+nav a {
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
