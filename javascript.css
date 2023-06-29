@@ -1,0 +1,37 @@
+p, h1, nav, li, h2 {
+        font-family: arial;
+        letter-spacing: 0.2px;
+    }
+.a1{
+    display: inline;
+    padding: 40px;
+}
+a{
+    color: white;
+}
+nav{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.zoom-img {
+  width: 300px;
+  height:auto;
+  overflow: hidden;
+}
+
+.zoom-img  img {
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.zoom-img img:hover   {
+  transform: scale(1.2);
+}
